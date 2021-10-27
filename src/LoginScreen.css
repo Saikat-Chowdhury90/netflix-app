@@ -1,0 +1,85 @@
+.loginscreen{
+    position:relative;
+    height:100%;
+    background: url('./images/background.jpg');
+    background-size: cover;
+}
+.loginscreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    
+}
+.loginscreen__body{
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    
+}
+.loginscreen__body>h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+.loginscreen__body > h2{
+    font-size: 2rem;
+    font-size: 400;
+    margin-bottom: 30px;
+}
+.loginscreen__body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.loginscreen__logo{
+    position: fixed;
+    left: 0;
+    width: 115px;
+    object-fit: contain;
+    padding-left: 20px;
+    top:4%;
+}
+.loginscreen__button{
+    position:fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.loginscreen__input > form > input{
+    padding:10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.loginscreen__getStarted{
+    padding: 0px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    height: 50px;
+    font-weight: 600;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    margin: 0!important;
+    vertical-align: middle;
+}
+.loginscreen__input{
+    margin: 20px;
+}
